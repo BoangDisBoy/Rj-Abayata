@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page title</title>
+    <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body{
+        border: 1px solid black;
+        height: 100vh;
+        padding: 2px;
+    }
+    
+    .nav, .main, .aside, .footer{
+    display:flex;
+    border: 1px solid black;
+    padding: 2px;
+    margin: 2px;
+    }
+    
+    .nav{
+        display: flex;
+        align-items: center;
+        gap: 2px;
+    }
+    .logo{
+        background-color: red;
+        height: 40px;
+        width: 40px;
+    }
+    .main{
+        display: flex;
+        flex-grow: 1;
+    }
+    .boxes{
+        display: flex;
+        gap: 2px;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        border: 1px solid black;
+    }
+    .box{
+        background-color: red;
+        height: 35px;
+        width: 35px;
+    }
+    .aside{
+        width: 35vw;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+    .rectangle{
+        border: 1px solid black;
+        height: 10px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        gap: 2px;      
+        align-items: center;
+    }
+    .foot{
+        display: flex;
+        gap: 2px;
+    }
+    .smallboxes{
+        border: 1px;
+        background-color: red;
+        height: 15px;
+        width: 15px;  
+    }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="nav">
+        <div class="logo"></div>
+        <div class="text">FLEXBOX</div>
+    </div>
+    <div class="main">
+        <div class="boxes">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    <div class="aside">
+            <div class="rectangle"></div>
+            <div class="rectangle"></div>
+            <div class="rectangle"></div>
+            <div class="rectangle"></div>
+            <div class="rectangle"></div>
+            <div class="rectangle"></div>
+            <div class="rectangle"></div>
+            <div class="rectangle"></div>
+            <div class="rectangle"></div>
+            <div class="rectangle"></div>
+    </div>
+    </div>
+    <div class="footer">
+        <div class="foot">
+            <div class="smallboxes"></div>
+            <div class="smallboxes"></div>
+            <div class="smallboxes"></div>
+            <div class="smallboxes"></div>
+            <div class="smallboxes"></div>
+            <div class="smallboxes"></div>
+        </div>
+            <div class="teext">© Copyright All Right Reserve</div>
+        </div>
+    </div>
+   </div>
+</body>
+</html>
